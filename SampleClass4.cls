@@ -1,5 +1,5 @@
 public class SampleClass4 {
-    Public Integer AccountCount = 1;
+    Public Integer AccountCount = 10;
     Public SampleClass4(){
         AccountCount = getAccountCount();
         System.debug('--AccountCount--'+AccountCount);
