@@ -1,5 +1,5 @@
 public class SampleClass4 {
-    Public Integer AccountCount = 1;
+    Public Integer AccountCount = 10;
     Public SampleClass4(){
         AccountCount = getAccountCount();
         System.debug('--AccountCount--'+AccountCount);
@@ -7,6 +7,7 @@ public class SampleClass4 {
     
     Public Void SampleMethod1(String AccName, String AccountNumber){
         Account Acc = new Account();
+        System.debug('---Acc 1---'+Acc);
         Integer AccCount = AccountCount+1;
         Acc.Name = AccName+' '+AccCount;
         Acc.AccountNumber = AccountNumber;
