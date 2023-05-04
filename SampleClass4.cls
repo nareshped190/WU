@@ -1,8 +1,9 @@
 public class SampleClass4 {
     Public Integer AccountCount = 10;
     Public SampleClass4(){
+        System.debug('--AccountCount 1--'+AccountCount);
         AccountCount = getAccountCount();
-        System.debug('--AccountCount--'+AccountCount);
+        System.debug('--AccountCount 2--'+AccountCount);
     }
     
     Public Void SampleMethod1(String AccName, String AccountNumber){
